@@ -9,6 +9,7 @@ git clone https://github.com/Mechatronics-2027-Group-3-Capstone/Mechatronics-202
 cd Mechatronics-2027-Group-3-Capstone
 npm install
 ```
+On Windows download npm from here : https://nodejs.org/en/download/
 
 ## Add/update an entry
 
