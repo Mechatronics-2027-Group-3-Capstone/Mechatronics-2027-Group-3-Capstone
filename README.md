@@ -24,7 +24,7 @@ npm install
 ## Live URL
 
 ```
-https://mechatronics-2027-group-3-capstone.github.io
+https://mechatronics-2027-group-3-capstone.github.io/Mechatronics-2027-Group-3-Capstone/
 ```
 
 ## One-time Pages setup
