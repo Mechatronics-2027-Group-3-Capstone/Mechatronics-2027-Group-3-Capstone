@@ -9,7 +9,7 @@ members: Asa Littlejohn, Shabd Gupta, Anna Levonyan
 Kicked off the capstone with the full team. We landed on our project:
 **SmartToast** — an AI-connected toaster with Spotify integration. Toast
 doneness and an LED "now toasting" display react to whatever song is
-currently playing.
+currently playing. This a test by Asa.
 
 - Set up this shared design log repository
 - Drafted the initial project charter
