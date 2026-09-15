@@ -3,6 +3,10 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { parseFrontmatter, splitList } from './lib/parseFrontmatter.js'
 
+// One-line project summary shown at the top of every page. Edit freely.
+const PROJECT_SUMMARY =
+  'SmartToast is an AI-connected toaster with Spotify integration — it syncs toast doneness and a 16×16 LED album-art display to whatever song is currently playing.'
+
 // Every markdown file in src/content is picked up automatically —
 // just drop in weekN.md and it appears on the site. No registration,
 // no build config, nothing else to touch.
@@ -77,6 +81,10 @@ export default function App() {
           <span className="brand-sub">Mechatronics 2027 · Group 3 Capstone</span>
         </div>
       </header>
+
+      <div className="intro">
+        <p>{PROJECT_SUMMARY}</p>
+      </div>
 
       <div className="layout">
         <nav className="sidebar">

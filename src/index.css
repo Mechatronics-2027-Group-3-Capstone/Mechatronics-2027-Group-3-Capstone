@@ -51,20 +51,35 @@ body {
 .topbar-inner {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 18px 24px;
+  padding: 16px 24px;
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 12px;
+  gap: 4px 12px;
 }
 
 .brand {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
 .brand-sub {
   font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.intro {
+  max-width: 1080px;
+  margin: 20px auto 0;
+  padding: 0 24px;
+}
+
+.intro p {
+  max-width: 640px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
   color: var(--text-secondary);
 }
 
@@ -248,10 +263,14 @@ body {
 }
 
 .markdown-body table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
   border-collapse: collapse;
-  width: 100%;
+  width: max-content;
   margin: 0 0 18px;
   font-size: 14px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .markdown-body th,
@@ -288,30 +307,67 @@ body {
 
 /* Responsive */
 @media (max-width: 760px) {
+  .topbar-inner {
+    padding: 14px 16px;
+  }
+
+  .intro {
+    padding: 0 16px;
+  }
+
+  .intro p {
+    max-width: none;
+  }
+
   .layout {
     grid-template-columns: 1fr;
-    padding: 20px 16px 64px;
-    gap: 16px;
+    padding: 16px 16px 56px;
+    gap: 14px;
   }
 
   .sidebar ul {
     position: static;
     flex-direction: row;
     overflow-x: auto;
-    gap: 6px;
-    padding-bottom: 4px;
+    gap: 8px;
+    padding: 2px 2px 6px;
+    margin: 0 -2px;
+    -webkit-overflow-scrolling: touch;
   }
 
   .nav-item {
+    flex-shrink: 0;
     white-space: nowrap;
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+
+  .nav-item.active {
+    border-color: var(--accent);
   }
 
   .entry-card {
-    padding: 28px 22px;
+    padding: 22px 18px;
+    border-radius: 12px;
   }
 
   .entry-header h1 {
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .markdown-body pre {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-sub {
+    flex-basis: 100%;
+  }
+
+  .entry-card {
+    padding: 18px 14px;
   }
 }
 

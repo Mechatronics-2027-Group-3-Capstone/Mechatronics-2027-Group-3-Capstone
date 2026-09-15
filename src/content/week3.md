@@ -1,35 +1,38 @@
 ---
 title: Week 3 — Prototyping
 date: Sept 22 – Sept 28, 2026
-members: Brendan Chharawala, Priya Nair, Marcus Chen
+members: Asa Littlejohn, Shabd Gupta, Anna Levonyan
 ---
 
-## Sept 23, 2026 — Marcus Chen
+## Sept 23, 2026 — Anna Levonyan
 
-Integrated the HX711 load cell amplifier with the STM32.
+Got album art rendering on the LED matrix.
 
-- Calibrated against known weights (10g, 50g, 100g)
-- Measured drift is under 0.5g over 10 minutes — acceptable for our use case
-- Combined sensor readings into a single state machine skeleton
+- Downsampled Spotify's 640x640 album art to 16x16 with simple averaging
+- Polling the currently-playing endpoint every 5 seconds is enough to feel
+  "live" without hitting Spotify's rate limits
+- Combined the Spotify client and matrix driver into one ESP32 sketch
 
-## Sept 25, 2026 — Brendan Chharawala
+## Sept 25, 2026 — Shabd Gupta
 
-3D-printed the first revision of the rotary arm bracket.
+Tuned the PID loop against the thermocouple readings.
 
-- First print had a servo mounting hole 1mm too small — reprinted with fix
-- Fits the servo horn cleanly on revision 2
+- Initial gains overshot badly and scorched a test slice — tuned down
+- Settled on gains that hit target doneness within +/-4 seconds across
+  5 repeated runs
+- Next: tie toast doneness target to the tempo of the currently playing song
+
+## Sept 27, 2026 — Asa Littlejohn
+
+3D-printed the first revision of the enclosure and did a full assembly
+test with the heating element and matrix installed.
+
+- LED matrix window was 2mm too small — reprinted with fix
+- Reviewed the wiring diagram with the TA during office hours; added a
+  flyback diode near the relay as recommended
 - Full assembly photos added to the shared drive
-
-## Sept 27, 2026 — Priya Nair
-
-Drafted the wiring diagram for the full system and reviewed it with the TA
-during office hours.
-
-- TA flagged that we should add a flyback diode near the servo driver
-- Updated the diagram accordingly
-- Scheduled full electromechanical integration for Week 4
 
 ### Next steps
 
-- [ ] Full system integration test
+- [ ] Full system integration test (heating + Spotify + display together)
 - [ ] Start drafting the mid-project progress report
