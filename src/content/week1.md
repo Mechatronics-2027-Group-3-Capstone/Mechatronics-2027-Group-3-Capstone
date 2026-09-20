@@ -1,41 +1,51 @@
 ---
-title: Week 1 — Kickoff & Problem Definition
-date: Sept 8 – Sept 14, 2026
-members: Asa Littlejohn, Shabd Gupta, Anna Levonyan
+title: Week 1 — Problem Ideation
+date: Sept 14 – Sept 20, 2026
+members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
 
-## Sept 9, 2026 — Asa Littlejohn
+## Sept 15, 2026 - Brendan Chharawala
 
-Kicked off the capstone with the full team. We landed on our project:
-**SmartToast** — an AI-connected toaster with Spotify integration. Toast
-doneness and an LED "now toasting" display react to whatever song is
-currently playing. This a test by Asa.
+Created website for tracking design logs.
 
-- Set up this shared design log repository
-- Drafted the initial project charter
-- Assigned early research areas: heating control, enclosure, Spotify API
+- Website is deisgned to use simple .md files for entries.
+- Should be easily updatable and accessible by instructors.
 
-## Sept 11, 2026 — Shabd Gupta
+## Sept 16, 2026 — Full Group
 
-Researched heating element control approaches for consistent, repeatable
-toast doneness.
+Group meeting to ideate on possible problems and solutions.
 
-- Compared simple bang-bang relay control vs. PID with a thermocouple
-- PID looks feasible with an off-the-shelf MAX6675 thermocouple amp
-- Flagged the nichrome element's thermal lag as the main tuning challenge
+- Ruled out idea of smart bread board, it has been done with the exact features we were thinking before. 
+- Possible ideas : 3D printer that can paint things, pasta vending machine, and credit/debit card tracking device.
+- Anna reached out to Professor Yue about a possible industry capstone.
+- Decided to each come up with 3 ideas / problems before next meeting.
 
-## Sept 13, 2026 — Anna Levonyan
+## Sept 17, 2026 — Shabd Gupta
 
-Investigated the Spotify Web API to figure out what's actually possible on
-a headless embedded device.
+Proposed idea of robotic lamp based on Apple ELEGANT framework.
 
-- `Get Currently Playing Track` endpoint gives track name, artist, and
-  album art URL — exactly what we need
-- Since a toaster has no browser/keyboard, we'll need the OAuth **device
-  authorization flow** for login
-- Next: request a Spotify developer app and test the auth flow manually
+- Group deciced to explore the possiblity of this idea at the next meeting.
 
-### Open questions
+## Sept 18, 2026 — Full Group
 
-- [ ] Confirm budget ceiling with course coordinator
-- [ ] Decide on heating control approach by Week 2
+Group meeting with focus on expanding on lamp idea and prepping for meeting with Professor Yue.
+
+- Considered possible problems the lamp could help solve : companionship, attention span, and habit forming.
+- Ideas for how the lamp might achieve this : be expressive and interactive, guard your phone from you, nudge or remind you to do things.
+- Brendan brought up issues of privacy and safety regarding having mics and cameras in the robot. Group considered maybe trying to use other sensing options.
+- Met with Professor Yue about project, intresting project but the group decided they were not a good fit for what Professor Yue was looking for.
+
+## Sept 20, 2026 — Full Group
+
+Quick group meeting to dicuss ideas for upcoming meeting with advisors.
+
+- Group decided to pitch 3 ideas for more advisor feedback.
+- Ideas include: Robot lamp, 3D printer that can paint things, and smart blind system.
+- Other intresting ideas brought up in meeting: FPGA based DSP guitar pedal (Shabd), EMG sensors for posture correction (Anna).
+- Group decided Shabd, Anna, and Brendan would work on presentation of ideas, while Asa would update logs with past weeks events.
+
+### Next Week
+
+- Select idea to go forward with.
+- Apply advisor feedback to current ideas.
+- Begin discussing roles and research.
