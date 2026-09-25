@@ -12,7 +12,7 @@ Group meeting intent was to clarify which of our ideas to go with.
 - The ideas in this space we currently are considering are: the robotic lamp, and a bipedal wheeled robot.
 - Focus in the next meeting will be picking the final idea and planning from there. 
 
-## Sept 25, 2026 - Full Group
+## Sept 25, 2026 — Full Group
 
 Group meeting with focus on picking our favourite idea.
 
