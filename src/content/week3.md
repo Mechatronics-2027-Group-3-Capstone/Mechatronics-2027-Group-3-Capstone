@@ -4,6 +4,23 @@ date: Sept 28 – Oct 4, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
 
+## Sept. 30, 2026 — Asa, Shabd
+
+Meeting to discuss torques and actuation for the device.
+
+- Some preliminary calculations were done to estimate the end effector weight.
+- Brief look into possible motors to consider.
+- Decided to meet again the next day to come up with a plan to calculate joint torques.
+
+## Oct. 1, 2026 — Asa, Shabd
+
+Building on previous days meeting to come up with plan to calculate joint torques.
+
+- Decided to use Matlab robotics system toolbox to simulate robot for the purpose of torque selection.
+- Wrote a matlab script that uses the toolbox to calculate worst case joint torques under static and dynamic configurations.
+- Tried implementing the parameters for a potential set of motors we were specing.
+- Agreed next steps are to start working on CAD next week to get better idea of link length and inertia.
+
 ## Oct. 1, 2026 — Anna
 
 The objective of this session was to develop 2–3 lighting options for the robot. We want it to be able to produce either warm white or cool white lighting, depending on the use case, and potentially coloured lighting to increase expressiveness.
