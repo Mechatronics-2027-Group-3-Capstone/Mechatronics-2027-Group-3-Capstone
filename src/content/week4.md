@@ -22,3 +22,10 @@ Since we want to power the prototype with no more than ~12 V, we are limiting ea
 
 We created an Altium Designer project for the prototype and began adding footprints and schematic symbols for our selected components.
 
+## Oct. 7, 2026 - Asa & Shabd
+
+Work session to begin CAD modelling of protoype
+
+- Decided to make a prototype of the first 3 links of the device, this is because the motors at these joints will exprince the most torques.
+- Currently using SolidWorks because we are familiar with it, but might switch to Fusion for full design later.
+- Designed base link and platform link as well as sourced CAD for servos, bearings, and servo horn.
