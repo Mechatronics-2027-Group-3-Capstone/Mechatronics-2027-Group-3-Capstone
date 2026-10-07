@@ -12,6 +12,17 @@ Group meeting intent was to clarify which of our ideas to go with.
 - The ideas in this space we currently are considering are: the robotic lamp, and a bipedal wheeled robot.
 - Focus in the next meeting will be picking the final idea and planning from there. 
 
+## Sept 21, 2026 — Full Group
+
+First meeting with our course advisors to get feedback on project ideas.
+
+- All of our ideas are fine for the scope of the course, so narrow down by elimination.
+- Pick based on what we each want to work on and our backgrounds.
+- Consider what will be more interesting to people at the symposium.
+- They liked the design log website.
+- Need to be more quantitative about our constraints going forward.
+- The "3 patents" requirement means finding 3 existing patents relevant to our project.
+
 ## Sept 25, 2026 — Full Group
 
 Group meeting with focus on picking our favourite idea.
