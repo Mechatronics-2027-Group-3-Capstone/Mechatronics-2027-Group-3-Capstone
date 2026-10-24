@@ -1,5 +1,5 @@
 ---
-title: Week 4 — PDP 
+title: Week 6 — PDP 
 date: Oct 18 – Oct 24, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---

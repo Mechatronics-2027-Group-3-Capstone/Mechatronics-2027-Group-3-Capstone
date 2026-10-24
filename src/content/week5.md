@@ -1,5 +1,5 @@
 ---
-title: Week 4 — PDP Preparation & CAD Work
+title: Week 5 — PDP Preparation & CAD Work
 date: Oct 12 – Oct 17, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
