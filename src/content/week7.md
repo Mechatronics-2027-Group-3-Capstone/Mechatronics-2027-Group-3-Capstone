@@ -53,3 +53,7 @@ Scholarships:
 Advisor meeting on Monday:
 
 - Planning to show CAD, the electrical architecture, and a software overview.
+
+## Nov. 1, 2026 - Shabd Gupta
+
+ - I applied to the posture and seating scholarship for the group.
