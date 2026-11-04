@@ -12,6 +12,14 @@ Monday, Tuesday, and Wednesday Work Sessions for putting together the PDP presen
 - I developed the decision matrix, weighting scheme, and scores for each design 
 - Practiced my section of the presentation to get it under ~4 mins
 
+## Oct. 12-14, 2026 — Shabd
+
+Monday, Tuesday, and Wednesday Work Sessions for putting together the PDP presentation.
+
+- Researched patents and literature relevant to the project
+- created relevant slides
+- created the timeline and critical path for the project
+
 ## Oct. 14, 2026 — Full group
 
 During this session, we practiced and timed our PDP presentation slides, and went through the PDP rubric to determine if we met all of the requirements.
