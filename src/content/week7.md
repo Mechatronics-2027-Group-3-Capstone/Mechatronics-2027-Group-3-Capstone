@@ -3,6 +3,9 @@ title: Week 7 — Design Work
 date: Oct 25 – Oct 31, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
+## Oct. 27, 2026 - Anna Levonyan
+
+During this session, I completed the write-up for the capstone enrichment activity.
 
 ## Oct. 28, 2026 - Full Group
 
@@ -53,6 +56,10 @@ Scholarships:
 Advisor meeting on Monday:
 
 - Planning to show CAD, the electrical architecture, and a software overview.
+
+## Oct. 2029, 2026 - Anna Levonyan and Shabd Gupta
+
+We wrote the posture and seating scholarship application, and created a budget for the project.
 
 ## Nov. 1, 2026 - Shabd Gupta
 
