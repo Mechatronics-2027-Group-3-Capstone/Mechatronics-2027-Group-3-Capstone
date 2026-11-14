@@ -15,3 +15,13 @@ During this session, we tested out various LEDs for our LED board.
     - The white LEDs are plenity bright but we feel that the warm LED isn't warm enough. 
 
 Plan to revise the board with no HP LEDs and go from 4 to 12 LP LEDs, swap current warm white LEDs for ones with more warmth.
+
+## Nov. 13, 2026 - Asa Littlejohn
+
+During this session I continued work on the LED board schematic.
+
+- Increased number of LP RGB LEDs and remove HP RGB LEDs as was determined by testing.
+- Replace white LEDs with same components with warmer and colder temp respectively.
+- Also increase number of white LEDs to increase luminence.
+- Do math on V_LED to make sure that chosen value won't cause drivers to dissipate too much power.
+- Add a few cheap temp sensors for thermal monitoring of hot spots (LEDs, and LED drivers)
