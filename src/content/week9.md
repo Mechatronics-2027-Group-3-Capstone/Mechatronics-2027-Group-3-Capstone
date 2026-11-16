@@ -4,6 +4,16 @@ date: Nov 8 – Nov 14, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
 
+## Nov. 11, 2026 — Full Group
+
+Wednesday group meeting.
+
+- Brendan redesigned the robot CAD to be more expressive. The arm now has 6 motors instead of 5.
+- Brendan and Asa want to order the motors used in the new design.
+- Shabd is taking the Jetson to get started on bring-up.
+- Shabd found two cameras. We are ordering them on Amazon.
+- Future orders will go through Amazon because returns are free until February.
+
 ## Nov. 12, 2026 — Asa Littlejohn & Anna Levonyan
 
 During this session, we tested out various LEDs for our LED board.
@@ -25,3 +35,11 @@ During this session I continued work on the LED board schematic.
 - Also increase number of white LEDs to increase luminence.
 - Do math on V_LED to make sure that chosen value won't cause drivers to dissipate too much power.
 - Add a few cheap temp sensors for thermal monitoring of hot spots (LEDs, and LED drivers).
+
+## Nov. 13, 2026 — Full Group
+
+Friday group meeting.
+
+- Went over the LED test results. Currently leaning towards discrete white LEDs combined with RGB LEDs.
+- Some discussion about using RGBWCW LEDs instead.
+- CAD has been updated and Brendan is going to start printing parts.
