@@ -25,3 +25,4 @@ During this session I continued work on the LED board schematic.
 - Also increase number of white LEDs to increase luminence.
 - Do math on V_LED to make sure that chosen value won't cause drivers to dissipate too much power.
 - Add a few cheap temp sensors for thermal monitoring of hot spots (LEDs, and LED drivers).
+
