@@ -4,7 +4,7 @@ date: Oct 5 – Oct 11, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
 
-## Oct. 5, 2026 — Full Group
+## Oct. 5, 2026 — Anna, Asa, Brendan, Shabd
 
 Monday work session.
 
@@ -39,7 +39,7 @@ Work session to begin CAD modelling of protoype
 - Currently using SolidWorks because we are familiar with it, but might switch to Fusion for full design later.
 - Designed base link and platform link as well as sourced CAD for servos, bearings, and servo horn.
 
-## Oct. 7, 2026 — Full Group
+## Oct. 7, 2026 — Anna, Asa, Brendan, Shabd
 
 Wednesday group meeting.
 

@@ -4,7 +4,7 @@ date: Oct 18 – Oct 24, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
 
-## Oct. 18, 2026 — Full Group
+## Oct. 18, 2026 — Anna, Asa, Brendan, Shabd
 
 During this session, we rehearsed our PDP slides and prepared for the presentation the following day.
 
@@ -16,6 +16,6 @@ During this session, we rehearsed our PDP slides and prepared for the presentati
 
 ![Expressive pose sheet](images/2026-10-18-pose-sheet.png)
 
-## Oct. 19, 2026 — PDP Day! — Full Group
+## Oct. 19, 2026 — PDP Day! — Anna, Asa, Brendan, Shabd
 
 During this session, we delivered our PDP presentation to our advisors and peers, answered questions during the Q&A, and evaluated other groups’ presentations.

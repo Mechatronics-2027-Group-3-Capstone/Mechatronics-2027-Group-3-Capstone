@@ -20,7 +20,7 @@ Monday, Tuesday, and Wednesday Work Sessions for putting together the PDP presen
 - created relevant slides
 - created the timeline and critical path for the project
 
-## Oct. 14, 2026 — Full group
+## Oct. 14, 2026 — Anna, Asa, Brendan, Shabd
 
 During this session, we practiced and timed our PDP presentation slides, and went through the PDP rubric to determine if we met all of the requirements.
 

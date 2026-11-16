@@ -136,9 +136,13 @@ body {
 /* Content */
 .content {
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .entry-card {
+  scroll-margin-top: 88px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);

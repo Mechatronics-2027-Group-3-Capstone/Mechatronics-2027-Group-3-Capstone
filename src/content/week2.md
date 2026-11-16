@@ -4,7 +4,7 @@ date: Sept 21 – Sept 27, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
 
-## Sept 16, 2026 — Full Group
+## Sept 16, 2026 — Anna, Asa, Brendan, Shabd
 
 Group meeting intent was to clarify which of our ideas to go with. 
 
@@ -12,7 +12,7 @@ Group meeting intent was to clarify which of our ideas to go with.
 - The ideas in this space we currently are considering are: the robotic lamp, and a bipedal wheeled robot.
 - Focus in the next meeting will be picking the final idea and planning from there. 
 
-## Sept 21, 2026 — Full Group
+## Sept 21, 2026 — Anna, Asa, Brendan, Shabd
 
 First meeting with our course advisors to get feedback on project ideas.
 
@@ -23,7 +23,7 @@ First meeting with our course advisors to get feedback on project ideas.
 - Need to be more quantitative about our constraints going forward.
 - The "3 patents" requirement means finding 3 existing patents relevant to our project.
 
-## Sept 25, 2026 — Full Group
+## Sept 25, 2026 — Anna, Asa, Brendan, Shabd
 
 Group meeting with focus on picking our favourite idea.
 
@@ -31,13 +31,13 @@ Group meeting with focus on picking our favourite idea.
 - The group decided to come up with a list of what we think the robot should do and use that collectively to develop the more refined constraints and criteria.
 - The group also decided to each find one patent and one research paper to meet the next courde requirement.
 
-## Sep 25-27, 2026 - Full Group
+## Sep 25-27, 2026 - Anna, Asa, Brendan, Shabd
 
 Each group member conducted research on productivity, mental health, and robotics, examining at least one relevant paper per topic.
 
 Each group member developed a list of desired features for the robot.
 
-## Sept 27, 2026 - Full Group
+## Sept 27, 2026 - Anna, Asa, Brendan, Shabd
 
 Group meeting with the focus of sharing our research findings and desired features. 
 

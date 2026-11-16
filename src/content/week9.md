@@ -22,7 +22,7 @@ During this session I redesigned the robot CAD.
 - Confirmed that our Jetson Nano Dev Kit has two MIPI CSI camera connectors, so we can run two cameras.
 - Received the Digikey order with the LEDs for testing and handed it off to Anna and Asa.
 
-## Nov. 11, 2026 — Full Group
+## Nov. 11, 2026 — Anna, Asa, Brendan, Shabd
 
 Wednesday group meeting.
 
@@ -66,7 +66,7 @@ During this session I continued work on the LED board schematic.
 - Do math on V_LED to make sure that chosen value won't cause drivers to dissipate too much power.
 - Add a few cheap temp sensors for thermal monitoring of hot spots (LEDs, and LED drivers).
 
-## Nov. 13, 2026 — Full Group
+## Nov. 13, 2026 — Anna, Asa, Brendan, Shabd
 
 Friday group meeting.
 

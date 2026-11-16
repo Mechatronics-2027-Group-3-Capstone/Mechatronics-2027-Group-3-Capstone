@@ -4,7 +4,7 @@ date: Sept 28 – Oct 4, 2026
 members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 ---
 
-## Sept. 28, 2026 — Full Group
+## Sept. 28, 2026 — Anna, Asa, Brendan, Shabd
 
 Second meeting with our course advisors.
 
@@ -23,7 +23,7 @@ Second meeting with our course advisors.
 
 - Recommended Fusion over SolidWorks for our CAD, since its cloud projects make it much easier for the whole team to work on the same model. Setup Fusion for the group and started working on full CAD model. 
 
-## Sept. 30, 2026 — Full Group
+## Sept. 30, 2026 — Anna, Asa, Brendan, Shabd
 
 Meeting to settle roles going forward and work on scholarships.
 
@@ -85,7 +85,7 @@ The diffuser material and geometry are still TBD and will require experimentatio
 
 - Discussed version control with Shabd. We agreed to keep code in separate repositories per project area, since they don't depend on each other at build time.
 
-## Oct. 2, 2026 — Full Group
+## Oct. 2, 2026 — Anna, Asa, Brendan, Shabd
 
 Friday meeting to share subsystem research and plan the PDP.
 

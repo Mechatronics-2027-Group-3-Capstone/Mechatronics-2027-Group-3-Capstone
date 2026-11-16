@@ -29,7 +29,7 @@ During this session I made a block diagram for the electrical system and calcual
 
 - Dicussion to clarify Asa's questions for the electrical block diagram: the camera will connect to the Jetson over either 4-lane MIPI CSI or USB 3.2, and the current design has 5 servos, with 3 large ones in the arm and 2 small ones inside the head.
 
-## Nov. 2, 2026 — Advisor Meeting — Full Group
+## Nov. 2, 2026 — Advisor Meeting — Anna, Asa, Brendan, Shabd
 
 Design review with our advisors.
 
@@ -66,7 +66,7 @@ During this session, I completed the MCU portion of the schematic in Altium Desi
 - Opted not to add a stable reference voltage to the analog reference pins on the MCU, since we won't be using the ADCs/DACs
 - Also opted to exclude both external oscillators to simplify layout, and because they are not needed
 
-## Nov. 4, 2026 — Full Group
+## Nov. 4, 2026 — Anna, Asa, Brendan, Shabd
 
 Wednesday group meeting.
 
@@ -79,7 +79,7 @@ Wednesday group meeting.
 - Buying off-the-shelf buck converters for now.
 
 
-## Nov. 6, 2026 — Full Group
+## Nov. 6, 2026 — Anna, Asa, Brendan, Shabd
 
 Friday group meeting.
 

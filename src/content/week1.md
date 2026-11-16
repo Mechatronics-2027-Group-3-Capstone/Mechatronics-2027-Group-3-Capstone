@@ -11,7 +11,7 @@ Created website for tracking design logs.
 - Website is deisgned to use simple .md files for entries.
 - Should be easily updatable and accessible by instructors.
 
-## Sept 16, 2026 — Full Group
+## Sept 16, 2026 — Anna, Asa, Brendan, Shabd
 
 Group meeting to ideate on possible problems and solutions.
 
@@ -26,7 +26,7 @@ Proposed idea of robotic lamp based on Apple ELEGANT framework.
 
 - Group deciced to explore the possiblity of this idea at the next meeting.
 
-## Sept 18, 2026 — Full Group
+## Sept 18, 2026 — Anna, Asa, Brendan, Shabd
 
 Group meeting with focus on expanding on lamp idea and prepping for meeting with Professor Yue.
 
@@ -35,7 +35,7 @@ Group meeting with focus on expanding on lamp idea and prepping for meeting with
 - Brendan brought up issues of privacy and safety regarding having mics and cameras in the robot. Group considered maybe trying to use other sensing options.
 - Met with Professor Yue about project, intresting project but the group decided they were not a good fit for what Professor Yue was looking for.
 
-## Sept 20, 2026 — Full Group
+## Sept 20, 2026 — Anna, Asa, Brendan, Shabd
 
 Quick group meeting to dicuss ideas for upcoming meeting with advisors.
 

@@ -7,7 +7,7 @@ members: Asa Littlejohn, Shabd Gupta, Anna Levonyan, Brendan Chharawala
 
 During this session, I completed the write-up for the capstone enrichment activity.
 
-## Oct. 28, 2026 - Full Group
+## Oct. 28, 2026 - Anna, Asa, Brendan, Shabd
 
 Wednesday group meeting.
 
@@ -27,7 +27,7 @@ During this session I worked on the Lighting PCB for the Lamp.
 - Speced out passive components to make sure the LED drivers function properly.
 - Speced out an alternative LED driver for the Low Power RGB LEDs as recommended by Anna. 
 
-## Oct. 30, 2026 - Full Group
+## Oct. 30, 2026 - Anna, Asa, Brendan, Shabd
 
 Friday group meeting.
 
