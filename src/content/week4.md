@@ -48,3 +48,8 @@ Wednesday group meeting.
 - Proposed Oct 14 (virtual) for the first PDP presentation rehearsal.
 - Aiming to finish scholarship applications by the PDP review date for a quick review.
 - Planning to set up a shared spreadsheet to track tasks and timelines across subsystems: mechanical/assembly, software, motor control, ML, lighting control, and power distribution.
+
+## Oct. 9, 2026 — Brendan Chharawala
+
+- Set up the shared Fusion project for the team's CAD and started troubleshooting file access after Shabd and Anna couldn't see the files.
+- Proposed a polished metal and white plastic look for the lamp to keep it looking clean and premium. Showed what quick renders of this would look like

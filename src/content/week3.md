@@ -19,6 +19,10 @@ Second meeting with our course advisors.
 - We could pitch different combinations of features across our four design options.
 - No late PDP changes allowed, submission is due the Monday before.
 
+## Sept. 29, 2026 — Brendan Chharawala
+
+- Recommended Fusion over SolidWorks for our CAD, since its cloud projects make it much easier for the whole team to work on the same model. Setup Fusion for the group and started working on full CAD model. 
+
 ## Sept. 30, 2026 — Full Group
 
 Meeting to settle roles going forward and work on scholarships.
@@ -36,6 +40,15 @@ Meeting to discuss torques and actuation for the device.
 - Some preliminary calculations were done to estimate the end effector weight.
 - Brief look into possible motors to consider.
 - Decided to meet again the next day to come up with a plan to calculate joint torques.
+
+## Sept. 30, 2026 — Brendan Chharawala
+
+Gave Asa and Shabd guidance on actuator selection for their research, based on my previous experience building robot limbs.
+
+- Shared Dynamixel servos as a reference for high-quality torque-feedback actuators.
+- Recommended prioritizing any form of position feedback first, with serial bus servos being much easier to debug than PWM servos.
+- Estimated we would need roughly 40 to 60 kg·cm of torque for the arm joints.
+- Recommended servos with metal gearboxes. Plastic gearboxes develop backlash quickly, and many cheap servos advertise high torque by pairing a strong motor with a weak gearbox that wears out fast.
 
 ## Oct. 1, 2026 — Asa, Shabd
 
@@ -67,6 +80,10 @@ Next Steps:
 I'll be looking into prototyping both options and compare brightness, uniformity, appearance, size, heat, cost, and ease of integration. I'm going to suggest that Asa and myself develop a quick SMD LED PCB, while a commercial COB module will be purchased for testing. Will proceed if the group approves the ~$150 budget identified, although cheaper PCB manufacturing/shipping options should be investigated.
 
 The diffuser material and geometry are still TBD and will require experimentation.
+
+## Oct. 1, 2026 — Brendan Chharawala
+
+- Discussed version control with Shabd. We agreed to keep code in separate repositories per project area, since they don't depend on each other at build time.
 
 ## Oct. 2, 2026 — Full Group
 
