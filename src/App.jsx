@@ -16,6 +16,14 @@ const files = import.meta.glob('./content/*.md', {
   eager: true,
 })
 
+// Show each week's entries newest-first. The markdown files stay in date
+// order (easier to write); we split on "## " headings and flip them here.
+function newestFirst(markdown) {
+  const parts = markdown.split(/^(?=## )/m)
+  const preamble = parts[0].startsWith('## ') ? '' : parts.shift()
+  return [preamble, ...parts.reverse().map((p) => p.trimEnd() + '\n\n')].join('')
+}
+
 function weekNumber(path) {
   const match = path.match(/(\d+)/)
   return match ? parseInt(match[1], 10) : 0
@@ -31,10 +39,10 @@ const entries = Object.entries(files)
       title: data.title || `Week ${num}`,
       date: data.date || data.daterange || data.dates || '',
       members: splitList(data.members || data.author || data.authors),
-      content,
+      content: newestFirst(content),
     }
   })
-  .sort((a, b) => a.num - b.num)
+  .sort((a, b) => b.num - a.num) // newest week first
 
 function slugFromHash() {
   const hash = window.location.hash.replace('#', '')
