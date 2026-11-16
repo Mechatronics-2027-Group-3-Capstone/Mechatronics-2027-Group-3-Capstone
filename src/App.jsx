@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { parseFrontmatter, splitList } from './lib/parseFrontmatter.js'
@@ -16,6 +16,14 @@ const files = import.meta.glob('./content/*.md', {
   eager: true,
 })
 
+// Show each week's entries newest-first. The markdown files stay in date
+// order (easier to write); we split on "## " headings and flip them here.
+function newestFirst(markdown) {
+  const parts = markdown.split(/^(?=## )/m)
+  const preamble = parts[0].startsWith('## ') ? '' : parts.shift()
+  return [preamble, ...parts.reverse().map((p) => p.trimEnd() + '\n\n')].join('')
+}
+
 function weekNumber(path) {
   const match = path.match(/(\d+)/)
   return match ? parseInt(match[1], 10) : 0
@@ -31,37 +39,48 @@ const entries = Object.entries(files)
       title: data.title || `Week ${num}`,
       date: data.date || data.daterange || data.dates || '',
       members: splitList(data.members || data.author || data.authors),
-      content,
+      content: newestFirst(content),
     }
   })
-  .sort((a, b) => a.num - b.num)
+  .sort((a, b) => b.num - a.num) // newest week first
 
-function currentSlugFromHash(fallback) {
+function slugFromHash() {
   const hash = window.location.hash.replace('#', '')
-  return entries.some((e) => e.slug === hash) ? hash : fallback
+  return entries.some((e) => e.slug === hash) ? hash : null
 }
 
 export default function App() {
-  const firstSlug = entries[0]?.slug
-  const [activeSlug, setActiveSlug] = useState(() => currentSlugFromHash(firstSlug))
+  const [activeSlug, setActiveSlug] = useState(() => slugFromHash() || entries[0]?.slug)
+  const cardRefs = useRef({})
 
+  // On first load, jump to the week named in the URL hash (if any).
   useEffect(() => {
-    const onHashChange = () => setActiveSlug(currentSlugFromHash(firstSlug))
-    window.addEventListener('hashchange', onHashChange)
-    return () => window.removeEventListener('hashchange', onHashChange)
-  }, [firstSlug])
+    const slug = slugFromHash()
+    if (slug) cardRefs.current[slug]?.scrollIntoView()
+  }, [])
 
-  const active = useMemo(
-    () => entries.find((e) => e.slug === activeSlug) || entries[0],
-    [activeSlug],
-  )
+  // Highlight whichever week is currently at the top of the viewport.
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (items) => {
+        const visible = items
+          .filter((i) => i.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
+        if (visible.length) setActiveSlug(visible[0].target.id)
+      },
+      { rootMargin: '-90px 0px -70% 0px' },
+    )
+    Object.values(cardRefs.current).forEach((el) => el && observer.observe(el))
+    return () => observer.disconnect()
+  }, [])
 
   function selectWeek(slug) {
-    window.location.hash = slug
+    history.replaceState(null, '', `#${slug}`)
+    cardRefs.current[slug]?.scrollIntoView({ behavior: 'smooth' })
     setActiveSlug(slug)
   }
 
-  if (!active) {
+  if (entries.length === 0) {
     return (
       <div className="empty-state">
         <h1>Design Log</h1>
@@ -92,7 +111,7 @@ export default function App() {
             {entries.map((e) => (
               <li key={e.slug}>
                 <button
-                  className={e.slug === active.slug ? 'nav-item active' : 'nav-item'}
+                  className={e.slug === activeSlug ? 'nav-item active' : 'nav-item'}
                   onClick={() => selectWeek(e.slug)}
                 >
                   {e.title}
@@ -103,26 +122,31 @@ export default function App() {
         </nav>
 
         <main className="content">
-          <article className="entry-card">
-            <div className="entry-header">
-              <h1>{active.title}</h1>
-              {(active.date || active.members.length > 0) && (
-                <div className="entry-meta">
-                  {active.date && <span className="meta-date">{active.date}</span>}
-                  {active.members.map((m) => (
-                    <span className="meta-pill" key={m}>
-                      {m}
-                    </span>
-                  ))}
-                </div>
-              )}
-            </div>
-            <div className="markdown-body">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                {active.content}
-              </ReactMarkdown>
-            </div>
-          </article>
+          {entries.map((e) => (
+            <article
+              className="entry-card"
+              id={e.slug}
+              key={e.slug}
+              ref={(el) => (cardRefs.current[e.slug] = el)}
+            >
+              <div className="entry-header">
+                <h1>{e.title}</h1>
+                {(e.date || e.members.length > 0) && (
+                  <div className="entry-meta">
+                    {e.date && <span className="meta-date">{e.date}</span>}
+                    {e.members.map((m) => (
+                      <span className="meta-pill" key={m}>
+                        {m}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <div className="markdown-body">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{e.content}</ReactMarkdown>
+              </div>
+            </article>
+          ))}
         </main>
       </div>
     </div>
