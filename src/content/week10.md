@@ -11,3 +11,20 @@ During this session, I began working on the power section of the board.
 - Using Asa's power calculations, I determined that 14V may be a more suitable value for the LED string voltage to ensure that the maximum power dissapation spec of the white LED drivers is not exceeded. 
 - I selected a 14V and 3.3V buck converter for the board. 
 - I calculated the appropriate inductor and output capacitor values for the buck based on ripple current and other specifications, and added them to the schematic.
+
+## Nov. 16, 2026 - Asa Littlejohn
+
+During this session, I made some changes on the LED section of the board and did some layout calculations.
+
+- I implemented Anna's suggestion of dropping the LED voltage to 14V by re-arranging the RGB led strings.
+- I added the requiref components to acompany this change to the schematic.
+- I did some math regarding how to arrange the LEDs on the board with the goal of determining the minimum diffuser distance.
+    - Found that circular pattern will probably work best, but will need to iron exact circular diameter with some help from Brendan.
+
+## Nov. 17, 2020 - Asa Littlejohn
+
+During this session, I worked on prototyping the capctive touch sensor.
+
+- I used thin metal sheets of Aluminium and Stainless-Steel from the EMC.
+- I connected them via wires to the capacitive touch sensor and wrote some code to test the device.
+- I found the device would be able to detect the touch, but it requires some tuning and would benefit from an additional source of feedback (probably motor load).
