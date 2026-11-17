@@ -22,6 +22,10 @@ During this session I redesigned the robot CAD.
 - Confirmed that our Jetson Nano Dev Kit has two MIPI CSI camera connectors, so we can run two cameras.
 - Received the Digikey order with the LEDs for testing and handed it off to Anna and Asa.
 
+## Nov. 10, 2026 — Shabd
+
+- Worked on component selection, selected base and arm camera worked with Asa to get orders.
+
 ## Nov. 11, 2026 — Anna, Asa, Brendan, Shabd
 
 Wednesday group meeting.
@@ -55,6 +59,9 @@ Plan to revise the board with no HP LEDs and go from 4 to 12 LP LEDs, swap curre
 
 - Looked into what it takes to meet our lighting spec: getting both saturated RGB colours and true tunable white from 2700 K to 6000 K needs RGB plus warm and cool white channels (RGBCCT / RGBWW). Either tunable white LEDs with separate RGB LEDs, or all-in-one RGBCCT LEDs, would work as long as we meet the spec.
 
+## Nov. 13, 2026 - Shabd Gupta
+
+- Helped Anna with FW bug, setup the Nvidia Jetson with ssh and initial boot.
 
 ## Nov. 13, 2026 - Asa Littlejohn
 
