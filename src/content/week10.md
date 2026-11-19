@@ -28,3 +28,11 @@ During this session, I worked on prototyping the capctive touch sensor.
 - I used thin metal sheets of Aluminium and Stainless-Steel from the EMC.
 - I connected them via wires to the capacitive touch sensor and wrote some code to test the device.
 - I found the device would be able to detect the touch, but it requires some tuning and would benefit from an additional source of feedback (probably motor load).
+
+## Nov. 19, 2020 - Asa Littlejohn and Shabd Gupta
+
+ During this session, We briefly checked the effects of LEDs light on the camera.
+
+ - We took the camera we plan to use in the lamp shade housing and placed a couple of LEDs under it.
+ - Looking at the camera feed on a computer we saw there was only a minor increase in brightness in the feed.
+ - We concluded for now that this shouldn't be an issue but a more conclusive test with the board will be needed.
