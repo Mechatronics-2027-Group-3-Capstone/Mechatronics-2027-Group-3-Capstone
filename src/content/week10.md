@@ -36,3 +36,11 @@ During this session, I worked on prototyping the capctive touch sensor.
  - We took the camera we plan to use in the lamp shade housing and placed a couple of LEDs under it.
  - Looking at the camera feed on a computer we saw there was only a minor increase in brightness in the feed.
  - We concluded for now that this shouldn't be an issue but a more conclusive test with the board will be needed.
+
+ ## Nov. 19, 2020 - Asa Littlejohn and Anna Levonyan
+
+ During this session, We began the layout of our lighting PCB.
+
+ - We first workedout rough dimensions for the board and rough componenet placement.
+ - We also had a discussion about LED placement strategies and came to an agreement about a 2 circle alternating pattern.
+ - Began the placement in Altium but decided to split up the placement based on what schematics we have done.   
